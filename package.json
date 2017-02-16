@@ -1,0 +1,24 @@
+{
+  "name": "iot-mqtt-platform",
+  "version": "1.0.0",
+  "description": "Platform for domotic control with broker mqtt and Arduino clients made with Javascript and Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cvozmedg/iotMqttPlatform.git"
+  },
+  "keywords": [
+    "iot",
+    "mqtt",
+    "arduino"
+  ],
+  "author": "Cristian Vozmediano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cvozmedg/iotMqttPlatform/issues"
+  },
+  "homepage": "https://github.com/cvozmedg/iotMqttPlatform#readme"
+}
