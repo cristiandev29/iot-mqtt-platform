@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/cvozmedg/iotMqttPlatform/issues"
   },
-  "homepage": "https://github.com/cvozmedg/iotMqttPlatform#readme"
+  "homepage": "https://github.com/cvozmedg/iotMqttPlatform#readme",
+  "dependencies": {
+    "johnny-five": "^0.10.6",
+    "mosca": "^2.2.0",
+    "mqtt": "^2.4.0",
+    "underscore": "^1.8.3"
+  }
 }
