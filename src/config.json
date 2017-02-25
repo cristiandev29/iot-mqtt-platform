@@ -1,0 +1,16 @@
+{
+  "broker":{
+    "port": 1883,
+    "backend": {
+      "type": "mongo",
+      "url": "mongodb://localhost:27017/mqtt",
+      "pubsubCollection": "ascoltatori",
+      "mongo": {}
+    },
+    "url":"mqtt://localhost:1883"
+  },
+  "clients":{
+    "clientId1":"ClientMqtt1",
+    "clientId2":"ClientMqtt2"
+  }
+}

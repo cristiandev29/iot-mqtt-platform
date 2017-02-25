@@ -4,7 +4,7 @@
   "description": "Platform for domotic control with broker mqtt and Arduino clients made with Javascript and Node",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./node_modules/parallelshell/index.js  'node src/broker.js' 'node src/client1.js' 'node src/client2.js'"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,7 @@
     "arduino"
   ],
   "author": "Cristian Vozmediano",
-  "license": "ISC",
+  "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/cvozmedg/iotMqttPlatform/issues"
   },
@@ -25,6 +25,7 @@
     "johnny-five": "^0.10.6",
     "mosca": "^2.2.0",
     "mqtt": "^2.4.0",
+    "parallelshell": "^2.0.0",
     "underscore": "^1.8.3"
   }
 }
