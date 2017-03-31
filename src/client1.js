@@ -6,7 +6,7 @@ client = mqtt.connect(config.broker.url,{
 });
 
 client.on('connect', function () {
-
+  client.subscribed('topics/level1/light');
 });
 
 client.on('message', function (topic, message) {
